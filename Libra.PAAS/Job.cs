@@ -14,7 +14,11 @@ namespace Libra.PAAS
 
         public string Say()
         {
-            return new Task().Hello();
+            var result = new Task().Hello();
+
+            Console.WriteLine(result);
+
+            return result;
         }
     }
 }

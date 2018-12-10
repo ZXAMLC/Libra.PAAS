@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Libra.IAAS" Version="1.0.0-CI-20181210-145355" />
+    <PackageReference Include="Libra.IAAS" Version="1.0.0-CI-20181210-151803" />
   </ItemGroup>
 
 </Project>
