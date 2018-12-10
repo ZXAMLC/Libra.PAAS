@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Libra.Iass;
+using Libra.IAAS;
 
 namespace Libra.PAAS
 {
@@ -14,7 +14,7 @@ namespace Libra.PAAS
 
         public string Say()
         {
-            return new Libra.Iass.Task().Hello();
+            return new Task().Hello();
         }
     }
 }
